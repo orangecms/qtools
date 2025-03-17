@@ -1,11 +1,17 @@
+# `qtools`
+
 A set of tools for working with flash modems on Qualcomm chipsets
 
 The set consists of a utility package and a set of patched bootloaders.
 
-The programs require modified loaders in order to work, which are in the
-`loaders/` directory. The patch source is in `cmd_05_write_patched.asm`.
+## Loaders
 
-TODO: Where is this `cmd_05_write_patched.asm`?
+The programs require modified loaders in order to work, which are in the
+`loaders/` directory.
+
+The patch source is in `loaders/pexec_arm.asm` / `loaders/pexec_thumb.asm`.
+
+## Tools
 
 ### `qcommand`
 
